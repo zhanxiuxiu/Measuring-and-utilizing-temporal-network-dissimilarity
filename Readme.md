@@ -18,11 +18,17 @@ python activity_driven_network_generation_uniform.py
 python activity_driven_network_generation_power_law.py
 ```
 
-
 ### Temporal network dissimilarity:
-1. Fastest arrival distance calculation (python 3.8): python single_network_Node_fastest_arrival_distance.py --dataset EEU1
-2. temporal network dissimilarity (python 3.8): python Temporal_dissimilarity_value.py --dataset_name1 gallery1 --dataset_name2 gallery2
+1. Fastest arrival distance calculation (python 3.8):
+```
+python single_network_Node_fastest_arrival_distance.py --dataset EEU1
+```
 
+2. temporal network dissimilarity (python 3.8): 
+
+```
+python Temporal_dissimilarity_value.py --dataset_name1 gallery1 --dataset_name2 gallery2
+```
 
 If you have any question about the paper or the code, please contact us. **Xiu-Xiu zhan**, **zhanxxiu@gmail.com**
 
