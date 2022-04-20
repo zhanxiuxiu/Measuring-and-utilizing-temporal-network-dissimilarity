@@ -9,8 +9,15 @@ For more details, please refer to the following paper:
 Three folders are given here, i.e., data illustrates the datasets that are used in this work, synthetic_data_generation gives the code of generating temporal networks by using activity driven model, TD describes the methods of computing the fastest arrival distance between nodes in a temporal network as well as the computation of temporal dissimilarity between two temporal networks.
 
 ### Synthetic temporal network generation:
-1.   Generating temporal network with uniform activity distribution (python 3.8): python activity_driven_network_generation_uniform.py
-2.   Generating temporal network with powerlaw activity distribution (python 2.7, powerlaw package 1.4.5): python activity_driven_network_generation_power_law.py
+1.   Generating temporal network with uniform activity distribution (python 3.8): 
+```
+python activity_driven_network_generation_uniform.py
+```
+2.   Generating temporal network with powerlaw activity distribution (python 2.7, powerlaw package 1.4.5): 
+```
+python activity_driven_network_generation_power_law.py
+```
+
 
 ### Temporal network dissimilarity:
 1. Fastest arrival distance calculation (python 3.8): python single_network_Node_fastest_arrival_distance.py --dataset EEU1
